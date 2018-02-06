@@ -1,0 +1,75 @@
+/*Base Styles*/
+
+body {
+	background-color: #DDD;
+}
+
+/*Navbar*/
+
+.navigation {
+
+}
+
+.navigation h1 {
+	background-color: #4aaaa5;
+	padding: 14px 16px;
+	font-size: 40px;
+}
+
+/*About me*/
+
+.profile-img {
+	margin-right: 3%;
+}
+
+.about-me {
+	margin-top: 3%;
+	background-color: #fff;
+	float: left;
+}
+
+.about-me p {
+	margin: 0 5% 0 0;
+}
+
+/*Media Querys*/
+
+@media only screen and (min-width: 576px) {
+	/*For Tablets*/
+	.profile-img {
+		width: 180px;
+		height: 180px;
+		float: left;
+	}
+
+/*	.about-me {
+		height: 40%;
+	}
+}*/
+}
+
+@media only screen and (min-width: 768px) {
+	/*For laptops and desktops*/
+	.profile-img {
+		width: 200px;
+		height: 200px;
+		float: left;
+	}
+	
+	.about-me {
+		height: 40%;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	/*large screeens*/
+	.profile-img {
+		width: 250px;
+		height: 250px;
+		float: left;
+	}
+
+	.about-me {
+		height: 40%;
+	}
+}
