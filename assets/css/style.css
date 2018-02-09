@@ -37,6 +37,31 @@ body {
 	font-size: 20px;
 }
 
+.c-about-me p {
+	font-size: 15px;
+	padding: 5px 5px 5px 5px;
+	margin: 10px 25px 10px 25px;
+	color: #ccc;
+	border: solid #ccc 2px;
+}
+
+.c-about-me h3 {
+	font-size: 20px;
+	margin: 0 0 0 25px;
+}
+
+.c-about-me .submit {
+	display: block;
+	font-size: 20px;
+	margin: 20px 400px 20px 25px;
+	background-color: #4aaaa5;
+	color: #fff;
+}
+
+.c-about-me .submit {
+	padding: 7px 15px 7px 25px;
+}
+
 /*Connect*/
 
 .connect {
@@ -45,7 +70,6 @@ body {
 }
 
 .connect li {
-	margin: 2%;
 	list-style-type: none;
 }
 
@@ -57,6 +81,84 @@ body {
 .connect-logo {
 	width: 50px;
 	height: 50px;
+} 
+
+
+.project-1, .project-2, .project-3, .project-4, .project-5 {
+	width: 250px;
+	height: 220px;
+	float: left;
+	margin: 10px 0px 10px 20px;
+}
+
+.project-1 {
+	background-image: url("https://static.pexels.com/photos/114907/pexels-photo-114907.jpeg");
+	background-size: cover;
+}
+
+.project-1 p {
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 170px;
+	background-color: #4aaaa5;
+	padding: 10px;
+}
+
+.project-2 {
+	background-image: url("https://static.pexels.com/photos/262508/pexels-photo-262508.jpeg");
+	background-size: cover;
+}
+
+.project-2 p {
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 170px;
+	background-color: #4aaaa5;
+	padding: 10px;
+}
+
+.project-3 {
+	background-image: url("https://static.pexels.com/photos/230544/pexels-photo-230544.jpeg");
+	background-size: cover;
+}
+
+.project-3 p {
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 170px;
+	background-color: #4aaaa5;
+	padding: 10px;
+}
+
+.project-4 {
+	background-image: url("https://static.pexels.com/photos/192273/pexels-photo-192273.jpeg");
+	background-size: cover;
+}
+
+.project-4 p {
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 170px;
+	background-color: #4aaaa5;
+	padding: 10px;
+}
+
+.project-5 {
+	background-image: url("https://static.pexels.com/photos/262569/pexels-photo-262569.jpeg");
+	background-size: cover;
+}
+
+.project-5 p {
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 170px;
+	background-color: #4aaaa5;
+	padding: 10px;
 }
 
 /*Footer*/
@@ -96,11 +198,7 @@ body {
 		height: 200px;
 		float: left;
 	}
-	
-/*	.about-me {
-		height: 40%;
-		float: left;
-	}*/
+
 }
 
 @media only screen and (min-width: 1024px) {
@@ -111,7 +209,4 @@ body {
 		float: left;
 	}
 
-/*	.about-me {
-		height: 40%;
-	}*/
 }

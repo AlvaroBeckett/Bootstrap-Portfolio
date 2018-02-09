@@ -22,21 +22,24 @@
 </head>
 
 <body>
-	<div class="wrapper">
 	<header>
-		<div class="navbar">
-		<h1>Alvaro Beckett</h1>
-			<ul>
-				<li><a href="index.html">About</a></li>
-				<li><a href="portfolio.html">Portfolio</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
+		<div class="navbar navbar-expand-lg navbar-light bg-light justify-content-around">
+			<div class="container border-bottom-0 navigation">	
+				<h1 class="navbar-brand text-white navigation">Alvaro Beckett</h1>
+					<div class="navbar-right">
+						<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+							<li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
+							<li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+						</ul>
+					</div>	
+			</div>
 		</div>
-	</header>
 
-	<section class="m-section">
-		<div class="p-about-me">
-			<h2 class="p-header">Portfolio</h2>
+	<section class="container">
+		<div class="row justify-content-around m-section">
+			<div class="col-sm-12 col-md-6 col-lg-6 about-me">
+			<h2 class="border-bottom">Portfolio</h2>
 				<div class="project-1">
 					<p>Website</p>
 				</div>
@@ -54,22 +57,29 @@
 				</div>
 		</div>
 
-		<div class="connect">
-			<h3>Connect with Me</h3>
-			<ul>
-				<li><a href="#"><img class="connect-logo" src="https://pbs.twimg.com/profile_images/616309728688238592/pBeeJQDQ.png"></a></li>
-				<li><a href="#"><img class="connect-logo" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-512.png"></a></li>
-				<li><a href="#"><img class="connect-logo" src="https://www.shareicon.net/data/512x512/2015/08/30/93317_stackoverflow_512x512.png"></a></li>
-			</ul>
+<div class="col-sm-12 col-md-4 col-lg-4 connect">
+				<h3 class="border-bottom text-center">Connect with Me</h3>
+					<div class="row">
+						<div class="col-md-4">
+							<ul>
+								<li><a href="#"><img class="connect-logo" src="https://pbs.twimg.com/profile_images/616309728688238592/pBeeJQDQ.png"></a></li>
+						</div>
+						<div class="col-md-4">
+								<li><a href="#"><img class="connect-logo" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-512.png"></a></li>
+						</div>
+						<div class="col-md-4">
+								<li><a href="#"><img class="connect-logo" src="https://www.shareicon.net/data/512x512/2015/08/30/93317_stackoverflow_512x512.png"></a></li>
+						</div>
+							</ul>
+					</div>
+			</div>
 		</div>
 	</section>
-	</div>
-		<footer>
-			<div class="l-footer">
-				<p>Copyright @ 2018 Alvaro Beckett</p>
+	<footer>
+			<div class="container-fluid" id="footer">
+				<p class="footer-block text-center text-white">Copyright @ 2018 Alvaro Beckett</p>
 			</div>
-			</div>
-		</footer>
-	</section>
+		</div>
+	</footer>
 </body>
 </html>
